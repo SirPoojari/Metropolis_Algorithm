@@ -149,7 +149,7 @@ if __name__ == "__main__":
 
 
 """ The algorithm is clearly finding the right decryption within 5-10 seconds but because my termination condition is actually the number of iterations  
-total time taken is closer to a minute. Intialising with a manual seed will still not change this but might make a minute difference in how """
+total time taken is closer to a minute. Intialising with a manual seed will still not change this but might make a minute difference in how quickly it finds the right decryption."""
 
 
 
