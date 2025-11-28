@@ -15,16 +15,6 @@ def decrypt(ciphertext, key):
             decrypted.append(a)
     return "".join(decrypted) # join the list into a string and return it. 
 
-def encrypt(plaintext, key):
-    reverse_mapping = {key[i]: alphabet[i] for i in range(26)} # reverse mapping for encryption
-    encrypted = []
-    for a in plaintext.lower():
-        if a in alphabet:
-            encrypted.append(reverse_mapping[a])
-        else:
-            encrypted.append(a)
-    return "".join(encrypted)
-
 def bigram_matrix(text):
     counts = np.zeros((26, 26)) # initialize a 26x26 matrix with all zeros
 
